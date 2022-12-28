@@ -1,0 +1,10 @@
+*{
+    padding: 0px;
+    margin: auto;
+}
+
+.header-index{
+    width: auto;
+    height: 300px;
+    background-color: beige;
+}
