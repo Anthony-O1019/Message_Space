@@ -3,6 +3,7 @@
     margin: auto;
 }
 
+/* the classes below are for the login page */
 .login-container{
     margin: 0;
     width: auto;
@@ -40,3 +41,5 @@
     height: 25vh;
     background-color: lightcyan;
 }
+
+/* The classes below are going to be for the home page */
