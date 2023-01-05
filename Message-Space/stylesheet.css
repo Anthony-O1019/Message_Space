@@ -43,3 +43,14 @@
 }
 
 /* The classes below are going to be for the home page */
+
+.home-container{
+    margin: 0;
+    width: auto;
+    height: 100%;
+}
+
+.home-banner{
+    display: flex;
+    background-color: aquamarine;
+}
