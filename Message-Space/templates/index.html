@@ -12,6 +12,10 @@
         <!-- this div is going to be the index header for the login page -->
         <div class="header-index">
         <h1>Welcome to Message Space!</h1>
+        <!-- this is testing for the sql server -->
+        {% for users in users %}
+        <p>First Name: {{users.first_name}}</p>
+        {% endfor %}
         </div>
         <!-- This is going to be the div for the actual login  -->
         <div class="login-form">
