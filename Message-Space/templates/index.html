@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/stylesheet.css') }}">
+    <title>Message Space</title>
+</head>
+<body>
+    <div class="login-container">
+        <!-- this div is going to be the index header for the login page -->
+        <div class="header-index">
+        <h1>Welcome to Message Space!</h1>
+        </div>
+        <!-- This is going to be the div for the actual login  -->
+        <div class="login-form">
+            <form action="*">
+                <label for="email">Enter Login: </label>
+                <input type="text" value="Email" name="email">
+                <label for="password">Password</label>
+                <input type="text" name="password" value="Password">
+            </form>
+        </div>
+        <!-- this div is for the images on the login page -->
+        <!-- for now we are going to use blank testimonials -->
+        <div class="login-images">
+            <div class="testimonial">
+            <img src="*" alt="Icon Here" width="90px">
+            <p><span>Some User</span>CEO of Something</p>
+            <p>Message Space is a great place for me to connect with others!</p>
+            </div>
+        </div>
+        <!-- this div is for the disclaimer for the login page -->
+        <div class="login-disclaimer">
+            <p style="font-size: x-small;">This is is designed and managed by Khaos Media Management</p>
+        </div>
+    </div>
+</body>
+</html>

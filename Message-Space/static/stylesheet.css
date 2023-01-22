@@ -86,6 +86,19 @@ button:hover, a:hover {
     opacity: 0.7;
 }
 
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* below is going to be the sign up page */
+
+.login-container{
+    margin: 0;
+    width: auto;
+    height: 100%;
+}
+
 /* below is going to be the status cards for the home page */
 
 .status-cards{
