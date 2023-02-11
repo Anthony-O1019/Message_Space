@@ -98,11 +98,29 @@ button:hover, a:hover {
 
 
 /* 2 start */
-.user-profile-container{
-    width: 100px;
-    height: 100px;
-    background-color: #000;
+#user-profile-container{
+    width: auto;
+    height: 800px;
+    background-color: rgb(151, 0, 0);
+    padding-top: 1px;
 }
+
+.user-review-panel{   
+    display:block;
+    height: max-content;
+    width: 50px;
+    color: #000;
+}
+
+.user-review{
+    background-color: aliceblue;
+    height: 110px;
+    width: 50px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
 /* 3 */
 /* 4 */
 
